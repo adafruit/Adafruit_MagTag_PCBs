@@ -1,6 +1,6 @@
 ## Adafruit MagTag PCB
 
-<a href="http://www.adafruit.com/products/4800"><img src="assets/4800.jpg?raw=true" width="500px"><br/>
+<a href="http://www.adafruit.com/products/4800"><img src="assets/4800-12.jpg?raw=true" width="500px"><br/>
 Click here to purchase one from the Adafruit shop</a>
 
 PCB files for the Adafruit MagTag.
@@ -11,6 +11,8 @@ Format is EagleCAD schematic and board layout
 ### Description
 
 The Adafruit MagTag combines the new ESP32-S2 wireless module and a 2.9" grayscale E-Ink display to make a low-power IoT display that can show data on its screen even when power is removed! The ESP32-S2 is great because it builds on the years of code and support for the ESP32 and also adds native USB support so you can use this board with Arduino or CircuitPython!
+
+New for 2025! After a long break, the MagTag is back in stock, we've found a 2.9" grayscale E-Ink display that replaces the old discontinued ILI0373. The new display has an SSD1680 chip driver and is supported in Arduino and CircuitPython version 10+!
 
 We designed this board to be low-power friendly - with a spot for a 350 or 420 mAh battery and built in battery charging over USB C. During deep sleep, with the NeoPixels and speaker amplifier disabled, we measured 250uA power draw so you can run for a few weeks between charges.
 
@@ -31,6 +33,12 @@ Here's the cool hardware we put together:
 * Two STEMMA 3 pin JST connectors for attaching NeoPixels, speakers, servos or relays.
 * On/Off switch
 * Boot and Reset buttons for re-programming
+
+Revision History:
+
+* As of July 22, 2025 – The display has been updated (old one discontinued); it now uses a modern SSD1680 chip instead of the discontinued ILI0373 - we have support in CircuitPython/Python/Arduino for it!
+* As of June 17, 2022 - This board may come with a different regulator than AP2112K due to parts shortages. The regulator can provide at least 500mA.
+* As of Dec 14, 2020 we're shipping with a different front silkscreen (black not white) Product is otherwise the same
 
 ### License
 
